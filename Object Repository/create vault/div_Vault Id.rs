@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_lbgtlgbtcom</name>
+   <name>div_Vault Id</name>
    <tag></tag>
-   <elementGuidId>432288a4-726f-4ff4-a3b6-89bd25c4ead4</elementGuidId>
+   <elementGuidId>411656c9-a611-423e-b49c-a02a1e859c69</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='STUDT - STUDENT'])[1]/following::li[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Vaultt'])[1]/following::div[5]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,78 +17,55 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>li</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>option</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ant-select-dropdown-menu-item ant-select-dropdown-menu-item-active</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>unselectable</name>
-      <type>Main</type>
-      <value>on</value>
+      <value>ant-col-12</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-            lbgt@lgbt.com
-          </value>
+      <value>Vault Id</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;e70ce30c-16de-4361-baf2-d621d0be50e6&quot;)/ul[@class=&quot;ant-select-dropdown-menu ant-select-dropdown-menu-vertical ant-select-dropdown-menu-root&quot;]/li[@class=&quot;ant-select-dropdown-menu-item ant-select-dropdown-menu-item-active&quot;]</value>
+      <value>/html[1]/body[1]/div[11]/div[@class=&quot;ant-drawer ant-drawer-right ant-drawer-open&quot;]/div[@class=&quot;ant-drawer-content-wrapper&quot;]/div[@class=&quot;ant-drawer-content&quot;]/div[@class=&quot;ant-drawer-wrapper-body&quot;]/div[@class=&quot;ant-drawer-body&quot;]/form[@class=&quot;ant-form ant-form-horizontal&quot;]/div[1]/div[1]/div[@class=&quot;ant-row-flex ant-row-flex-space-between&quot;]/div[@class=&quot;ant-col-12&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//div[@id='e70ce30c-16de-4361-baf2-d621d0be50e6']/ul/li</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Vaultt'])[1]/following::div[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='STUDT - STUDENT'])[1]/following::li[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vault Maintenance'])[2]/following::div[15]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='SOL - SOLE PROPRIETORSHIP'])[1]/following::li[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='hbng@hbng.com'])[1]/preceding::li[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vault Type'])[2]/preceding::div[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[12]/div/div/div/ul/li</value>
+      <value>//form/div/div/div/div</value>
    </webElementXpaths>
 </WebElementEntity>

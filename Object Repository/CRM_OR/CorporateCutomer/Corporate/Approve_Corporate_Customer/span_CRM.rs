@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_HIGH</name>
+   <name>span_CRM</name>
    <tag></tag>
-   <elementGuidId>04b5f0e4-2f7c-4d99-ac32-41ae68ff4f6e</elementGuidId>
+   <elementGuidId>088738d6-48b7-4290-866e-edad610b47f7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='MEDIUM'])[1]/preceding::li[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Business Exceptions'])[1]/following::span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,85 +17,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>li</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>option</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ant-select-dropdown-menu-item ant-select-dropdown-menu-item-active</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>unselectable</name>
-      <type>Main</type>
-      <value>on</value>
+      <value>center</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-            HIGH
-          </value>
+      <value>CRM</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;cc759d63-610e-449f-e23e-ff1ffd823d33&quot;)/ul[@class=&quot;ant-select-dropdown-menu ant-select-dropdown-menu-vertical ant-select-dropdown-menu-root&quot;]/li[@class=&quot;ant-select-dropdown-menu-item ant-select-dropdown-menu-item-active&quot;]</value>
+      <value>id(&quot;__layout&quot;)/div[@class=&quot;default wrapper wrapper--collapse-inner-menu&quot;]/aside[@class=&quot;aside&quot;]/div[@class=&quot;aside__outter-menu&quot;]/nav[@class=&quot;aside__body&quot;]/ul[@class=&quot;aside__ul&quot;]/li[@class=&quot;aside__items&quot;]/a[1]/span[@class=&quot;aside__links ant-tooltip-open&quot;]/span[@class=&quot;center&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='cc759d63-610e-449f-e23e-ff1ffd823d33']/ul/li</value>
+      <value>//div[@id='__layout']/div/aside/div/nav/ul/li[11]/a/span/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='QA01 - ABIOLA FADIPE'])[1]/following::li[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Business Exceptions'])[1]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='QA3000 - QA TESTER'])[1]/following::li[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clearing'])[1]/following::span[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='MEDIUM'])[1]/preceding::li[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Demand Draft'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='LOW'])[1]/preceding::li[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Free Codes'])[1]/preceding::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[14]/div/div/div/ul/li</value>
+      <value>//li[11]/a/span/span</value>
    </webElementXpaths>
 </WebElementEntity>

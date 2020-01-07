@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Add          Address</name>
+   <name>li_CREDIT</name>
    <tag></tag>
-   <elementGuidId>99d5ae13-f307-4855-9db7-d25099b6daa3</elementGuidId>
+   <elementGuidId>d8b57e80-86c4-4bec-8a42-b63d62c35853</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Zip Code'])[1]/following::button[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='DEBIT'])[1]/following::li[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,70 +17,85 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>li</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>role</name>
       <type>Main</type>
-      <value>button</value>
+      <value>option</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ant-btn ant-btn-primary</value>
+      <value>ant-select-dropdown-menu-item ant-select-dropdown-menu-item-active</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>unselectable</name>
+      <type>Main</type>
+      <value>on</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Add
-          Address</value>
+      <value>
+            CREDIT
+          </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[7]/div[@class=&quot;ant-drawer ant-drawer-right ant-drawer-open fixedBottomDrawer&quot;]/div[@class=&quot;ant-drawer-content-wrapper&quot;]/div[@class=&quot;ant-drawer-content&quot;]/div[@class=&quot;ant-drawer-wrapper-body&quot;]/div[@class=&quot;ant-drawer-body&quot;]/div[1]/form[@class=&quot;ant-form ant-form-horizontal&quot;]/div[@class=&quot;ant-tabs ant-tabs-top ant-tabs-line&quot;]/div[@class=&quot;ant-tabs-content ant-tabs-content-animated ant-tabs-top-content&quot;]/div[@class=&quot;ant-tabs-tabpane ant-tabs-tabpane-active&quot;]/div[2]/div[@class=&quot;multirecordTable ant-table-wrapper&quot;]/div[@class=&quot;ant-spin-nested-loading&quot;]/div[@class=&quot;ant-spin-container&quot;]/div[@class=&quot;ant-table ant-table-scroll-position-left ant-table-default ant-table-bordered ant-table-empty&quot;]/div[@class=&quot;ant-table-title&quot;]/div[2]/div[1]/div[@class=&quot;ant-row-flex&quot;]/div[@class=&quot;ant-col-17 ant-col-offset-7&quot;]/button[@class=&quot;ant-btn ant-btn-primary&quot;]</value>
+      <value>id(&quot;5dd4b3d5-59bd-43ec-f87f-0f942aa5ffdc&quot;)/ul[@class=&quot;ant-select-dropdown-menu ant-select-dropdown-menu-vertical ant-select-dropdown-menu-root&quot;]/li[@class=&quot;ant-select-dropdown-menu-item ant-select-dropdown-menu-item-active&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[11]</value>
+      <value>//div[@id='5dd4b3d5-59bd-43ec-f87f-0f942aa5ffdc']/ul/li[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Zip Code'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DEBIT'])[1]/following::li[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ALAUSA'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LOAN'])[1]/following::li[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Address Type'])[2]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::li[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::li[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div[2]/div/button</value>
+      <value>//div[11]/div/div/div/ul/li[2]</value>
    </webElementXpaths>
 </WebElementEntity>

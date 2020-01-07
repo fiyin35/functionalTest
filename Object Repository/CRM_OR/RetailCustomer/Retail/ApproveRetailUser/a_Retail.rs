@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Add          Address</name>
+   <name>a_Retail</name>
    <tag></tag>
-   <elementGuidId>99d5ae13-f307-4855-9db7-d25099b6daa3</elementGuidId>
+   <elementGuidId>ab5da397-d547-487e-b58a-d18cded9f5ae</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Zip Code'])[1]/following::button[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Corporate'])[1]/following::a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,70 +17,76 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>href</name>
       <type>Main</type>
-      <value>button</value>
+      <value>/core/crm/retail</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ant-btn ant-btn-primary</value>
+      <value>nuxt-link-exact-active nuxt-link-active</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Add
-          Address</value>
+      <value> Retail</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[7]/div[@class=&quot;ant-drawer ant-drawer-right ant-drawer-open fixedBottomDrawer&quot;]/div[@class=&quot;ant-drawer-content-wrapper&quot;]/div[@class=&quot;ant-drawer-content&quot;]/div[@class=&quot;ant-drawer-wrapper-body&quot;]/div[@class=&quot;ant-drawer-body&quot;]/div[1]/form[@class=&quot;ant-form ant-form-horizontal&quot;]/div[@class=&quot;ant-tabs ant-tabs-top ant-tabs-line&quot;]/div[@class=&quot;ant-tabs-content ant-tabs-content-animated ant-tabs-top-content&quot;]/div[@class=&quot;ant-tabs-tabpane ant-tabs-tabpane-active&quot;]/div[2]/div[@class=&quot;multirecordTable ant-table-wrapper&quot;]/div[@class=&quot;ant-spin-nested-loading&quot;]/div[@class=&quot;ant-spin-container&quot;]/div[@class=&quot;ant-table ant-table-scroll-position-left ant-table-default ant-table-bordered ant-table-empty&quot;]/div[@class=&quot;ant-table-title&quot;]/div[2]/div[1]/div[@class=&quot;ant-row-flex&quot;]/div[@class=&quot;ant-col-17 ant-col-offset-7&quot;]/button[@class=&quot;ant-btn ant-btn-primary&quot;]</value>
+      <value>id(&quot;__layout&quot;)/div[@class=&quot;default wrapper wrapper--collapse&quot;]/aside[@class=&quot;aside&quot;]/div[@class=&quot;aside__inner-menu&quot;]/ul[@class=&quot;inner-bawa-menu ant-menu ant-menu-inline ant-menu-root ant-menu-light&quot;]/li[@class=&quot;menu-item-custom ant-menu-item ant-menu-item-active ant-menu-item-selected&quot;]/a[@class=&quot;nuxt-link-exact-active nuxt-link-active&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[11]</value>
+      <value>//div[@id='__layout']/div/aside/div[2]/ul/li[2]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Zip Code'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Corporate'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ALAUSA'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Build Information'])[1]/following::a[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Address Type'])[2]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contacts'])[1]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/core/crm/retail')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div[2]/div/button</value>
+      <value>//div[2]/ul/li[2]/a</value>
    </webElementXpaths>
 </WebElementEntity>

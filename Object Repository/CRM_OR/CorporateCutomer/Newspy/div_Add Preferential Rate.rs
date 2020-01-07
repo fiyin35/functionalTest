@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_HIGH</name>
+   <name>div_Add Preferential Rate</name>
    <tag></tag>
-   <elementGuidId>04b5f0e4-2f7c-4d99-ac32-41ae68ff4f6e</elementGuidId>
+   <elementGuidId>2f57066d-7f69-460b-9f31-b2b9d772b02d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='MEDIUM'])[1]/preceding::li[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Contact'])[1]/following::div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,85 +17,83 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>li</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>role</name>
       <type>Main</type>
-      <value>option</value>
+      <value>tab</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>false</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ant-select-dropdown-menu-item ant-select-dropdown-menu-item-active</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>unselectable</name>
-      <type>Main</type>
-      <value>on</value>
+      <value> ant-tabs-tab</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-            HIGH
-          </value>
+      <value>Add Preferential Rate</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;cc759d63-610e-449f-e23e-ff1ffd823d33&quot;)/ul[@class=&quot;ant-select-dropdown-menu ant-select-dropdown-menu-vertical ant-select-dropdown-menu-root&quot;]/li[@class=&quot;ant-select-dropdown-menu-item ant-select-dropdown-menu-item-active&quot;]</value>
+      <value>/html[1]/body[1]/div[5]/div[@class=&quot;ant-drawer ant-drawer-right ant-drawer-open fixedBottomDrawer&quot;]/div[@class=&quot;ant-drawer-content-wrapper&quot;]/div[@class=&quot;ant-drawer-content&quot;]/div[@class=&quot;ant-drawer-wrapper-body&quot;]/div[@class=&quot;ant-drawer-body&quot;]/div[1]/form[@class=&quot;ant-form ant-form-horizontal&quot;]/div[@class=&quot;ant-tabs ant-tabs-top ant-tabs-line&quot;]/div[@class=&quot;ant-tabs-bar ant-tabs-top-bar&quot;]/div[@class=&quot;ant-tabs-nav-container ant-tabs-nav-container-scrolling&quot;]/div[@class=&quot;ant-tabs-nav-wrap&quot;]/div[@class=&quot;ant-tabs-nav-scroll&quot;]/div[@class=&quot;ant-tabs-nav ant-tabs-nav-animated&quot;]/div[1]/div[@class=&quot;ant-tabs-tab&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//div[@id='cc759d63-610e-449f-e23e-ff1ffd823d33']/ul/li</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Contact'])[1]/following::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='QA01 - ABIOLA FADIPE'])[1]/following::li[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Address'])[1]/following::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='QA3000 - QA TESTER'])[1]/following::li[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Company Name'])[2]/preceding::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='MEDIUM'])[1]/preceding::li[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='LOW'])[1]/preceding::li[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Short Company Name'])[1]/preceding::div[9]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[14]/div/div/div/ul/li</value>
+      <value>//div/div[5]</value>
    </webElementXpaths>
 </WebElementEntity>

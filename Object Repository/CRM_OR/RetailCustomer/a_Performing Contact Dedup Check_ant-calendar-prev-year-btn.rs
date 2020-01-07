@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Search</name>
+   <name>a_Performing Contact Dedup Check_ant-calendar-prev-year-btn</name>
    <tag></tag>
-   <elementGuidId>399dcfd3-94ba-4f49-afba-24255bb1abf1</elementGuidId>
+   <elementGuidId>7e0cac16-6374-41ca-9b0e-bfebd20d1616</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Is Active ?'])[1]/following::button[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Performing Contact Dedup Check'])[1]/following::a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,69 +17,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>title</name>
       <type>Main</type>
-      <value>button</value>
+      <value>Last year (Control + left)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ant-btn ant-btn-primary</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Search</value>
+      <value>ant-calendar-prev-year-btn</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[12]/div[@class=&quot;ant-drawer ant-drawer-right ant-drawer-open&quot;]/div[@class=&quot;ant-drawer-content-wrapper&quot;]/div[@class=&quot;ant-drawer-content&quot;]/div[@class=&quot;ant-drawer-wrapper-body&quot;]/div[@class=&quot;ant-drawer-body&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;ant-collapse&quot;]/div[@class=&quot;ant-collapse-item ant-collapse-item-active&quot;]/div[@class=&quot;ant-collapse-content ant-collapse-content-active&quot;]/div[@class=&quot;ant-collapse-content-box&quot;]/form[1]/div[@class=&quot;ant-row-flex ant-row-flex-end&quot;]/div[1]/button[@class=&quot;ant-btn ant-btn-primary&quot;]</value>
+      <value>/html[1]/body[1]/div[8]/div[1]/div[@class=&quot;ant-calendar-picker-container ant-calendar-picker-container-placement-bottomLeft&quot;]/div[@class=&quot;ant-calendar ant-calendar-picker-container-content&quot;]/div[@class=&quot;ant-calendar-panel&quot;]/div[@class=&quot;ant-calendar-date-panel&quot;]/div[@class=&quot;ant-calendar-header&quot;]/div[1]/a[@class=&quot;ant-calendar-prev-year-btn&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[14]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Performing Contact Dedup Check'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Is Active ?'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Performing Blacklist Dedup Check'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='City'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dec'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Su'])[1]/preceding::a[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div/div[2]/div/form/div[2]/div/button</value>
+      <value>//div[2]/div/div/a</value>
    </webElementXpaths>
 </WebElementEntity>
