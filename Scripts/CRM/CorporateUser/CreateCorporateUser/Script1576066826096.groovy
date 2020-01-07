@@ -59,22 +59,26 @@ WebUI.click(findTestObject('CRM_OR/CorporateCutomer/CorporateLastTwoTab/Page_ico
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/Page_icon-app/Page_icon-app/input_Short Company Name_ant-input'), 'PEC NG LIM')
+WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/Page_icon-app/Page_icon-app/input_Short Company Name_ant-input'), 
+    'PEC NG LIM')
 
 WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/Page_icon-app/Page_icon-app/input_Swift Code_ant-input'), 'PEC9864')
 
 WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/Page_icon-app/Page_icon-app/input_Total Shares and Investment_ant-input ant-input'), 
     '900000000')
 
-WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/Page_icon-app/Page_icon-app/input_Total Worth_ant-input ant-input'), '80000000')
+WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/Page_icon-app/Page_icon-app/input_Total Worth_ant-input ant-input'), 
+    '80000000')
 
 WebUI.click(findTestObject('CRM_OR/CorporateCutomer/Page_icon-app/Page_icon-app/input_Incorporation Date_ant-calendar-picker-input ant-input'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('CRM_OR/CorporateCutomer/SpyCrm1/Page_icon-app/Page_icon-app/div_2'))
+WebUI.click(findTestObject('CRM_OR/CorporateCutomer/SpyCrm1/Page_icon-app/div_2'))
 
 WebUI.click(findTestObject('CRM_OR/CorporateCutomer/SpyCrm1/Page_icon-app/div_'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('CRM_OR/CorporateCutomer/SpyCrm1/Page_icon-app/li_NIGERIA'))
 
@@ -93,7 +97,8 @@ WebUI.click(findTestObject('CRM_OR/CorporateCutomer/Page_icon-app/Page_icon-app/
 
 WebUI.click(findTestObject('CRM_OR/CorporateCutomer/SpyCrm1/Page_icon-app/li_English'))
 
-WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/Page_icon-app/Page_icon-app/textarea_Business Description_ant-input'), 'PECULIAR NIGERIA LIMITED IS A LEADING ICT COMPANY ')
+WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/Page_icon-app/Page_icon-app/textarea_Business Description_ant-input'), 
+    'PECULIAR NIGERIA LIMITED IS A LEADING ICT COMPANY ')
 
 WebUI.click(findTestObject('CRM_OR/CorporateCutomer/SpyCrm1/Page_icon-app/button_Next'))
 
@@ -129,33 +134,28 @@ WebUI.click(findTestObject('CRM_OR/CorporateCutomer/SPyBusDe_Sub_Sect/Page_icon-
 
 WebUI.click(findTestObject('CRM_OR/CorporateCutomer/Page_icon-app/Page_icon-app/input_Branch_ant-input'))
 
-WebUI.click(findTestObject('CRM_OR/CorporateCutomer/SpyCrm1/Page_icon-app/Page_icon-app/svg'))
+WebUI.click(findTestObject('CRM_OR/CorporateCutomer/SpyCrm1/Page_icon-app/svg'))
 
 WebUI.delay(3)
 
-WebUI.verifyElementClickable(findTestObject('CRM_OR/CorporateCutomer/SpyCrm1/Page_icon-app/button_Search'))
-
-WebUI.waitForElementClickable(findTestObject('CRM_OR/CorporateCutomer/SpyCrm1/Page_icon-app/button_Search'), 3)
-
-WebUI.click(findTestObject('CRM_OR/CorporateCutomer/SpyCrm1/Page_icon-app/button_Search'))
+WebUI.click(findTestObject('CRM_OR/CorporateCutomer/SpyCrm1/Page_icon-app/button_Search1_branch'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('CRM_OR/CorporateCutomer/SpyCrm1/Page_icon-app/button_Select'))
+WebUI.click(findTestObject('CRM_OR/CorporateCutomer/SpyCrm1/Page_icon-app/button_Select1_branch'))
 
 WebUI.click(findTestObject('CRM_OR/CorporateCutomer/SPyBusDe_Sub_Sect/Page_icon-app/button_Available for Trading_ant-switch'))
 
-WebUI.click(findTestObject('CRM_OR/CorporateCutomer/Page_icon-app/Page_icon-app/Page_icon-app/Page_icon-app/Page_icon-app/div_'))
+not_run: WebUI.click(findTestObject('CRM_OR/CorporateCutomer/Page_icon-app/Page_icon-app/Page_icon-app/Page_icon-app/Page_icon-app/input_Introducer Code_ant-input'))
 
-WebUI.click(findTestObject('CRM_OR/CorporateCutomer/Page_icon-app/Page_icon-app/Page_icon-app/Page_icon-app/Page_icon-app/li_QA200 - DEBBY AYENI'))
+not_run: WebUI.sendKeys(findTestObject('CRM_OR/CorporateCutomer/Page_icon-app/Page_icon-app/Page_icon-app/Page_icon-app/Page_icon-app/input_Introducer Code_ant-input'), 
+    Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('CRM_OR/CorporateCutomer/Page_icon-app/Page_icon-app/Page_icon-app/Page_icon-app/Page_icon-app/Page_icon-app/div_'))
+not_run: WebUI.click(findTestObject('CRM_OR/CorporateCutomer/Page_icon-app/Page_icon-app/Page_icon-app/Page_icon-app/Page_icon-app/li_QA200 - DEBBY AYENI'))
+
+WebUI.click(findTestObject('CRM_OR/CorporateCutomer/SpyCrm1/KYC_indicator'))
 
 WebUI.click(findTestObject('CRM_OR/CorporateCutomer/Page_icon-app/Page_icon-app/Page_icon-app/Page_icon-app/Page_icon-app/Page_icon-app/li_HIGH'))
-
-WebUI.click(findTestObject('CRM_OR/CorporateCutomer/SPyBusDe_Sub_Sect/Page_icon-app/Page_icon-app/Page_icon-app/Page_icon-app/div_'))
-
-WebUI.click(findTestObject('CRM_OR/CorporateCutomer/SPyBusDe_Sub_Sect/Page_icon-app/Page_icon-app/Page_icon-app/Page_icon-app/li_COMPLETE'))
 
 WebUI.click(findTestObject('CRM_OR/CorporateCutomer/SPyBusDe_Sub_Sect/Page_icon-app/Page_icon-app/Page_icon-app/Page_icon-app/Page_icon-app/button_Next'))
 
@@ -163,17 +163,17 @@ WebUI.click(findTestObject('CRM_OR/CorporateCutomer/SPyBusDe_Sub_Sect/Page_icon-
 
 WebUI.click(findTestObject('CRM_OR/CorporateCutomer/SPyBusDe_Sub_Sect/Page_icon-app/Page_icon-app/Page_icon-app/Page_icon-app/Page_icon-app/li_MAILING_ADDRESS'))
 
-WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/CRMCORPADDRESS/Page_icon-app/input_Email Address_ant-input'), 'AUTOTESTER@YAHOO.COM')
+WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/Newspy/Add_address_input_Email Address_ant-input'), 'AUTOTESTER@YAHOO.COM')
 
-WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/CRMCORPADDRESS/Page_icon-app/input_Phone Number_ant-input'), '09089047452')
+WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/Newspy/add_address_input_Phone Number_ant-input'), '09089047452')
 
-WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/CRMCORPADDRESS/Page_icon-app/input_Fax Number_ant-input'), '56230')
+WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/Newspy/add_address_input_Fax Number_ant-input'), '56230')
 
-WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/CRMCORPADDRESS/Page_icon-app/input_Home Address_ant-input'), 'PLOT 3B ABIOLA AVENUE IJAPO')
+WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/Newspy/add_address_input_Home Address_ant-input'), 'PLOT 3B ABIOLA AVENUE IJAPO')
 
-WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/CRMCORPADDRESS/Page_icon-app/input_Landmark_ant-input'), 'PLOT 3B')
+WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/Newspy/add_address_input_Landmark_ant-input'), 'PLOT 3B')
 
-WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/CRMCORPADDRESS/Page_icon-app/input_Nearest Bus Stop_ant-input'), 'A DIVISION BUS STOP')
+WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/Newspy/add_address_input_Nearest Bus Stop_ant-input'), 'A DIVISION BUS STOP')
 
 WebUI.click(findTestObject('CRM_OR/CorporateCutomer/NewSpyCrm/Page_icon-app/div_'))
 
@@ -196,37 +196,32 @@ WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/CRMCORPADDRESS/Page_icon-a
 
 WebUI.click(findTestObject('CRM_OR/CorporateCutomer/CRMCORPADDRESS/Page_icon-app/button_Add          Address'))
 
-WebUI.click(findTestObject('CRM_OR/CorporateCutomer/CRMCORPADDRESS/Page_icon-app/button_Next'))
+WebUI.click(findTestObject('CRM_OR/CorporateCutomer/Newspy/Next_div_Add Contact'))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('CRM_OR/CorporateCutomer/Newspy/contact_input_Contact_Look Up_ant-input'))
 
-WebUI.click(findTestObject('CRM_OR/CorporateCutomer/NewSpyCrm/Page_icon-app/Page_icon-app/div_'))
+WebUI.click(findTestObject('CRM_OR/RetailCustomer/svg'))
 
-WebUI.click(findTestObject('CRM_OR/CorporateCutomer/NewSpyCrm/Page_icon-app/Page_icon-app/li_DIRECTOR'))
+// WebUI.sendKeys(findTestObject('CRM_OR/CorporateCutomer/Newspy/contact_input_Contact_Look Up_ant-input'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('CRM_OR/CorporateCutomer/Newspy/button_Search_contact'))
 
-WebUI.click(findTestObject('CRM_OR/CorporateCutomer/NewSpyCrm/Page_icon-app/Page_icon-app/Page_icon-app/div_'))
+WebUI.delay(3)
 
-WebUI.click(findTestObject('CRM_OR/CorporateCutomer/NewSpyCrm/Page_icon-app/Page_icon-app/Page_icon-app/li_MR - MR'))
+WebUI.click(findTestObject('CRM_OR/CorporateCutomer/Newspy/button_Select_contact'))
 
-WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/CRMCORPADDRESS/Page_icon-app/input_First Name_ant-input'), 'THIAGO')
+WebUI.click(findTestObject('CRM_OR/CorporateCutomer/Newspy/contact_type'))
 
-WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/CRMCORPADDRESS/Page_icon-app/input_Last Name_ant-input'), 'COMAN')
+WebUI.click(findTestObject('CRM_OR/CorporateCutomer/Newspy/li_DIRECTOR'))
 
-WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/CRMCORPADDRESS/Page_icon-app/input_Middle Name_ant-input'), 'ALCANTARA')
+WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/Newspy/add_contact_input_Tax Id Number_ant-input'), '876544')
 
-WebUI.click(findTestObject('CRM_OR/CorporateCutomer/CRMCORPADDRESS/Page_icon-app/Page_icon-app/Page_icon-app/Page_icon-app/div_'))
+not_run: WebUI.click(findTestObject('CRM_OR/CorporateCutomer/NewSpyCrm/KYC_indicator'))
 
-WebUI.click(findTestObject('CRM_OR/CorporateCutomer/CRMCORPADDRESS/Page_icon-app/Page_icon-app/Page_icon-app/Page_icon-app/li_MALE'))
+not_run: WebUI.click(findTestObject('CRM_OR/CorporateCutomer/NewSpyCrm/Add_contatct_li_HIGH'))
 
-WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/SpyCRMCorpContact/Page_icon-app/input_Home Address_ant-input'), 'IKALE STREET')
+WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/NewSpyCrm/add_contact_input_Middle Name_ant-input'), 'FEYI')
 
-WebUI.click(findTestObject('CRM_OR/CorporateCutomer/SpyCRMCorpContact/Page_icon-app/div_'))
+WebUI.click(findTestObject('CRM_OR/CorporateCutomer/NewSpyCrm/button_Add_Contact'))
 
-WebUI.click(findTestObject('CRM_OR/CorporateCutomer/SpyCRMCorpContact/Page_icon-app/li_NIGERIA'))
-
-WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/SpyCRMCorpContact/Page_icon-app/input_Phone No_ant-input'), '08034173332')
-
-WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/SpyCRMCorpContact/Page_icon-app/input_Email_ant-input'), 'justmail@gmail.com')
-
-WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/SpyCRMCorpContact/Page_icon-app/input_Tax Id Number_ant-input'), '325437')
+WebUI.closeBrowser()
 

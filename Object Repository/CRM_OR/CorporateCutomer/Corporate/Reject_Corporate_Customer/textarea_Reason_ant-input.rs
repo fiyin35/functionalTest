@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Reason'])[2]/following::textarea[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[2]/preceding::textarea[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

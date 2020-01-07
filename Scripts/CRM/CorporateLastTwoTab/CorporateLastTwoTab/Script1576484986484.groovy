@@ -96,3 +96,33 @@ WebUI.click(findTestObject('CRM_OR/CorporateCutomer/CorporateLastTwoTab/Page_ico
 
 WebUI.closeBrowser()
 
+WebUI.click(findTestObject('OfficeAccount/Page_icon-app (1)/div_'))
+
+WebUI.click(findTestObject('OfficeAccount/Page_icon-app (1)/li_DIRECTOR'))
+
+WebUI.click(findTestObject('OfficeAccount/Page_icon-app (1)/Page_icon-app/div_'))
+
+WebUI.click(findTestObject('OfficeAccount/Page_icon-app (1)/Page_icon-app/li_MR - MR'))
+
+WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/CRMCORPADDRESS/Page_icon-app/input_First Name_ant-input'), 'THIAGO')
+
+WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/CRMCORPADDRESS/Page_icon-app/input_Last Name_ant-input'), 'COMAN')
+
+WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/CRMCORPADDRESS/Page_icon-app/input_Middle Name_ant-input'), 'ALCANTARA')
+
+WebUI.click(findTestObject('CRM_OR/CorporateCutomer/CRMCORPADDRESS/Page_icon-app/Page_icon-app/Page_icon-app/Page_icon-app/div_'))
+
+WebUI.click(findTestObject('CRM_OR/CorporateCutomer/CRMCORPADDRESS/Page_icon-app/Page_icon-app/Page_icon-app/Page_icon-app/li_MALE'))
+
+WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/SpyCRMCorpContact/Page_icon-app/input_Home Address_ant-input'), 'IKALE STREET')
+
+WebUI.click(findTestObject('CRM_OR/CorporateCutomer/SpyCRMCorpContact/Page_icon-app/div_'))
+
+WebUI.click(findTestObject('CRM_OR/CorporateCutomer/SpyCRMCorpContact/Page_icon-app/li_NIGERIA'))
+
+WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/SpyCRMCorpContact/Page_icon-app/input_Phone No_ant-input'), '08034173332')
+
+WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/SpyCRMCorpContact/Page_icon-app/input_Email_ant-input'), 'justmail@gmail.com')
+
+WebUI.setText(findTestObject('CRM_OR/CorporateCutomer/SpyCRMCorpContact/Page_icon-app/input_Tax Id Number_ant-input'), '325437')
+

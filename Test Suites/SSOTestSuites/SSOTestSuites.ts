@@ -14,7 +14,7 @@
       <guid>ac66dc25-2d4e-44d7-b828-d338cb9c9cef</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SSOUser/SSOUserTestCase</testCaseId>
+      <testCaseId>Test Cases/SSOUser/Create_SSO_User</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4b92e2fb-7b46-46ff-85c0-430b388d517d</guid>

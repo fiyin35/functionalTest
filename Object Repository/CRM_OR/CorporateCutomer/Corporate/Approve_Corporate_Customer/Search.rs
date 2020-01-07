@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_CLOSED_ant-btn ant-btn-primary</name>
+   <name>Search</name>
    <tag></tag>
    <elementGuidId>1fe6706d-92fa-481c-a15f-62a31be3c702</elementGuidId>
    <selectorCollection>

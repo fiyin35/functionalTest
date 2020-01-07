@@ -47,7 +47,7 @@ WebUI.click(findTestObject('CRM_OR/Campaign/Page_icon-app/Page_icon-app/div_1'))
 
 WebUI.click(findTestObject('Object Repository/CRM_OR/Campaign/Page_icon-app/li_BUSOW - BUSINESS OWNER'))
 
-WebUI.click(findTestObject('Object Repository/CRM_OR/Campaign/Page_icon-app/div_'))
+WebUI.click(findTestObject('CRM_OR/Campaign/Page_icon-app/Page_icon-app/Page_icon-app/div_2'))
 
 WebUI.click(findTestObject('Object Repository/CRM_OR/Campaign/Page_icon-app/li_lbgtlgbtcom'))
 
